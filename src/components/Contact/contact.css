@@ -1,0 +1,83 @@
+p{
+    color: var(--small-text-color);
+    line-height: 30.8px;
+    font-size: 18px;
+}
+
+.contact_para{
+    width: 80%;
+}
+.contact_section{
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    padding-left: 1.5rem/* 24px */;
+    padding-right: 1.5rem/* 24px */;
+    padding-top: 1rem/* 16px */;
+    padding-bottom: 3rem/* 16px */;
+    border-radius: 20px;
+    
+}
+
+.contact_wrapper{
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+
+
+.contact_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+
+@media (min-width: 768px) {
+    .sm\:px-16 {
+        padding-left: 3rem/* 64px */;
+        padding-right: 3rem/* 64px */;
+    }
+}
+
+@media (min-width: 768px) {
+    .sm\:py-12 {
+        padding-top: 3rem/* 48px */;
+        padding-bottom: 3rem/* 48px */;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .sm\:flex-row {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .contact_wrapper h2{
+        
+        text-align: center;
+    }
+    .contact_wrapper p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        text-align: center;
+        line-height: 35px;
+    }
+
+    .contact_section{
+        padding: 10px;
+        line-height: 60px;
+    }
+}
