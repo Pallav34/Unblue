@@ -15,7 +15,7 @@
     width: 25%;
     padding: 30px 15px;
     text-align: center;
-    border-radius: .5rem;
+    border-radius: .8rem;
     margin-bottom: 6px;
     cursor: pointer;
 }
@@ -71,4 +71,50 @@
     .service_item{
         width: 100%;
     }
+}
+
+.read_more_button,
+.read_less_button {
+  /* background-color: #379cf6;
+  border: none;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; */
+  position: relative;
+  background: #89b8de;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  padding: 5px 15px;
+  transition: 0.5s;
+}
+
+.read_more_button:hover,
+.read_less_button:hover {
+  /* background-color: #379cf6; */
+  background: #1e9bff;
+  letter-spacing: 0.25rem;
+  box-shadow: 0 0 35px #1e9bff;
+}
+
+.read_less_button {
+ background-color: transparent;
+  /* padding: 5px 15px;*/
+  color: #777;
+  /* border: none;
+  padding: 0;
+  margin-top: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s ease; */ 
+}
+
+.read_less_button:hover {
+   color: #555; 
 }
